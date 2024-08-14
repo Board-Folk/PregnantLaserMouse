@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PregnantLaserMouse")(type "KiCad")(uri "${KIPRJMOD}/libs/PregnantLaserMouse.kicad_sym")(options "")(descr ""))
+)
