@@ -5,7 +5,7 @@
 
 Version 1.0
 
-Requires an XAIO Sanduino21 and a ADNS9800 Laser, which you can get still get from Aliexpress. Make sure to also get the Lens.
+Requires an XAIO SAMD21 and a ADNS9800 Laser, which you can get still get from Aliexpress. Make sure to also get the Lens.
 
 [**SMD Interactive BOM**][IBOMSMD]
 
