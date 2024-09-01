@@ -59,8 +59,11 @@
         }
       ],
       "drc_exclusions": [
+        "lib_footprint_mismatch|142227300|124154600|a572e468-d40e-48b1-8b98-e23de272835d|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|142231300|118948200|57da59cc-e537-45f4-aa24-ba8c7d465361|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|133865620|122215807|0ea1bf68-730d-49f7-abaa-bb8b08a3f2d7|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|151663400|127309485|ad74ce5d-65ae-4b41-9f88-1df1163f0927|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|151221400|56310200|494468ae-0203-445f-bf3f-8a45d61b2b1b|7dcbecb7-cd27-43a9-bb80-17ecf3d9fbb1",
         "text_height|142773400|123418600|e068cf79-ef70-47af-b0bc-a935d8a73998|00000000-0000-0000-0000-000000000000",
         "text_thickness|142773400|123418600|e068cf79-ef70-47af-b0bc-a935d8a73998|00000000-0000-0000-0000-000000000000"
       ],
@@ -84,6 +87,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -496,6 +500,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -517,7 +522,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -526,7 +531,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -541,10 +546,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -559,82 +564,10 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SNAPEDA_PN",
-          "name": "SNAPEDA_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
+          "group_by": true,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": true
         }
       ],
       "filter_string": "",

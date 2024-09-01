@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "798c09e3-6181-4c48-9797-7a219698658c")
 	(paper "A4")
+	(title_block
+		(title "Amiga Pregnant Laser Mouse")
+		(date "2024-09-01")
+		(rev "1.0")
+		(company "Board Folk 2024")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
@@ -734,6 +740,262 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_3_Bridged12"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_0_1"
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3453,10 +3715,6 @@
 		(uuid "7b1d300e-9651-47b3-83cd-2061e6047a60")
 	)
 	(no_connect
-		(at 46.99 95.25)
-		(uuid "7e8589ce-2cbe-487f-9018-e69c4a43c12d")
-	)
-	(no_connect
 		(at 81.28 52.07)
 		(uuid "9913db55-d2a3-4c80-9687-5b323704d134")
 	)
@@ -3467,14 +3725,6 @@
 	(no_connect
 		(at 39.37 44.45)
 		(uuid "ac16a01a-1fbb-4ab4-87eb-abca1681d8c9")
-	)
-	(no_connect
-		(at 46.99 120.65)
-		(uuid "c50544fd-fb38-425c-bfc3-3ede84f64eb8")
-	)
-	(no_connect
-		(at 46.99 107.95)
-		(uuid "f6cdaa11-89fa-4737-b33a-7028c7c6a167")
 	)
 	(wire
 		(pts
@@ -4722,6 +4972,28 @@
 			)
 		)
 	)
+	(global_label "SW3_GND3"
+		(shape output)
+		(at 88.9 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d560f61-a293-4be6-bb7f-71a0f05cdb0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8032 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "X1"
 		(shape output)
 		(at 34.29 55.88 180)
@@ -4762,6 +5034,28 @@
 			)
 		)
 	)
+	(global_label "SW2_GND3"
+		(shape output)
+		(at 88.9 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25a18548-6056-4df7-bcd1-a816ddb8f31e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8032 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "X1_PULSE"
 		(shape output)
 		(at 76.2 154.94 0)
@@ -4798,6 +5092,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW3_GND1"
+		(shape output)
+		(at 78.74 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a8cc7a2-8656-4daa-9fc3-c109478f3ac0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.8368 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4858,6 +5174,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW2_GND1"
+		(shape input)
+		(at 30.48 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "541a3203-e188-47aa-9bef-e932abf8ef18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4943,6 +5281,28 @@
 			)
 		)
 	)
+	(global_label "SW1_GND3"
+		(shape output)
+		(at 88.9 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64241b7a-1a1a-4993-8da6-513edd875756")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8032 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "X2_PULSE"
 		(shape input)
 		(at 139.7 114.3 180)
@@ -4959,6 +5319,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW3_GND1"
+		(shape input)
+		(at 30.48 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6923b321-aa6c-48b7-a215-1796884a3f4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4999,6 +5381,50 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW2_GND3"
+		(shape input)
+		(at 46.99 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7282e0aa-dbc5-497e-8280-200424a99c85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.8932 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW1_GND1"
+		(shape input)
+		(at 30.48 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75b47a04-80db-4354-b636-0d81d5f51442")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5119,6 +5545,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW1_GND3"
+		(shape input)
+		(at 46.99 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9849e9d2-b9c4-4181-95a4-e7417d39d71b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.8932 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5284,6 +5732,28 @@
 			)
 		)
 	)
+	(global_label "SW3_GND3"
+		(shape input)
+		(at 46.99 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c68d2bbd-4d73-4d80-96e4-5cc7b6f955f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.8932 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LASER_NEN"
 		(shape output)
 		(at 198.12 90.17 180)
@@ -5404,6 +5874,28 @@
 			)
 		)
 	)
+	(global_label "SW1_GND1"
+		(shape output)
+		(at 78.74 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa29f8cc-8edd-4f62-b429-b302f31274e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.8368 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Y1_PULSE"
 		(shape input)
 		(at 139.7 106.68 180)
@@ -5420,6 +5912,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW2_GND1"
+		(shape output)
+		(at 78.74 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fee81616-d145-4718-ad2f-72ed2b5e2e1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.8368 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5542,6 +6056,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "2019-RK73H2ATTD3301FCT-ND"
+			(at 148.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea8bc597-e2b7-4d30-927f-6028297be304")
 		)
@@ -5603,6 +6126,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "399-C0805C104K5RAC7210CT-ND"
 			(at 250.19 67.31 0)
 			(effects
 				(font
@@ -5680,6 +6212,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "399-C0805C335K8PAC7800CT-ND"
+			(at 262.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac9a02e3-c60f-445d-9b8a-6ca661a3eb76")
 		)
@@ -5690,6 +6231,72 @@
 			(project "Pregnant Laser Mouse"
 				(path "/798c09e3-6181-4c48-9797-7a219698658c"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10848d80-bffc-4232-b464-31a14ef46668")
+		(property "Reference" "#PWR01"
+			(at 83.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cf80cc3-90f8-4b50-9c10-6d529b61b546")
+		)
+		(instances
+			(project "Pregnant Laser Mouse"
+				(path "/798c09e3-6181-4c48-9797-7a219698658c"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5897,9 +6504,9 @@
 		(at 63.5 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2011854b-5a30-4a95-ae3f-7d158bb5629f")
 		(property "Reference" "J2"
 			(at 62.23 20.32 90)
@@ -5910,7 +6517,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "Reset Hole"
 			(at 66.04 24.1299 90)
 			(effects
 				(font
@@ -5939,6 +6546,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 63.5 22.86 0)
 			(effects
 				(font
@@ -6006,6 +6622,15 @@
 			)
 		)
 		(property "Description" "Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8"
+			(at 66.04 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1727-4578-1-ND"
 			(at 66.04 157.48 0)
 			(effects
 				(font
@@ -6094,6 +6719,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1597-102010328-ND"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -6291,6 +6925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "399-C0805C106K8PAC7800CT-ND"
+			(at 218.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d35d5a24-e987-424b-8287-80c5415f4f11")
 		)
@@ -6418,6 +7061,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 262.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "399-C0805C106K8PAC7800CT-ND"
 			(at 262.89 87.63 0)
 			(effects
 				(font
@@ -6624,6 +7276,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "2019-RK73H2ATTD3301FCT-ND"
+			(at 148.59 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "069380ed-caf6-48a0-b06b-c1a528286e34")
 		)
@@ -6693,6 +7354,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "399-C0805C104K5RAC7210CT-ND"
+			(at 208.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2dbb0678-7136-413e-b6cc-326e5e968b64")
 		)
@@ -6703,6 +7373,78 @@
 			(project "Pregnant Laser Mouse"
 				(path "/798c09e3-6181-4c48-9797-7a219698658c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 83.82 125.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e3c794-fa4c-4378-9049-d8805550d46f")
+		(property "Reference" "JP3"
+			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d0725ab-dd0c-4487-97c5-949020acd28a")
+		)
+		(pin "1"
+			(uuid "b0e3e3f1-ce6d-4201-bb87-695442846de0")
+		)
+		(pin "3"
+			(uuid "542b25e9-c3bf-45a5-90eb-41905e0200ee")
+		)
+		(instances
+			(project "Pregnant Laser Mouse"
+				(path "/798c09e3-6181-4c48-9797-7a219698658c"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -6835,6 +7577,72 @@
 			(project "Pregnant Laser Mouse"
 				(path "/798c09e3-6181-4c48-9797-7a219698658c"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a4cd5a4-d755-4f51-9b32-7c8d52ca8edc")
+		(property "Reference" "#PWR030"
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d62fcfd-a772-40af-8955-7d6f4d373a4f")
+		)
+		(instances
+			(project "Pregnant Laser Mouse"
+				(path "/798c09e3-6181-4c48-9797-7a219698658c"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7027,6 +7835,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "IRLML6302PBFCT-ND / DMG2301LK-7DICT-ND"
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c492ba8d-037f-4c17-8d63-a6bc6faca06e")
 		)
@@ -7099,6 +7916,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "399-C0805C105K4RAC7800CT-ND"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78243f15-8cee-4e4e-abd5-29a6eca3621c")
 		)
@@ -7160,6 +7986,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "Aliexpress Get Lens Also"
 			(at 208.28 87.63 0)
 			(effects
 				(font
@@ -7343,6 +8178,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "2019-RK73H2ATTD1801FCT-ND"
+			(at 132.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a64f7ff0-b63a-4d61-97af-1a138c7a133d")
 		)
@@ -7404,6 +8248,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "399-C0805C471K5RAC7800CT-ND"
 			(at 213.36 77.47 0)
 			(effects
 				(font
@@ -7744,6 +8597,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "399-C0805C104K5RAC7210CT-ND"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06ae5338-9477-4e68-aebb-ec12be2f52d9")
 		)
@@ -7806,6 +8668,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "2057-PH1-10-UA-ND"
 			(at 151.13 111.76 0)
 			(effects
 				(font
@@ -7971,6 +8842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "2019-RK73H2ATTD3301FCT-ND"
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59bc4340-b042-476f-b397-804a989fbfde")
 		)
@@ -8096,6 +8976,15 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 83.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "450-1650-ND"
 			(at 83.82 27.94 0)
 			(effects
 				(font
@@ -8303,133 +9192,12 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Omron Electronics"
+		(property "Digikey" "SW501-ND"
 			(at 39.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.8 mm"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/D2F-01F/Omron+Electronics+Inc-EMC+Div/view-part/?ref=eda"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B036-E1-12"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/D2F-01F/Omron+Electronics+Inc-EMC+Div/view-part/?ref=snap"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "D2F-01F"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nUltra Subminiature Basic Switch,Snap Action, Pin Plunger, .1A, Low Force, 125V | Omron Electronic Components D2F-01F\n"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Omron"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "D2F-01F"
-			(at 39.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -8504,6 +9272,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "2019-RK73H2ATTD1801FCT-ND"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a879c4a1-d913-4555-9a8c-aed3e9ec3f70")
 		)
@@ -8521,16 +9298,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 110.49 270)
-		(mirror x)
+		(at 83.82 129.54 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "98d90f62-4ee2-438f-a77b-8df1b32b889a")
+		(uuid "9e01922d-028d-4b58-9055-e748b563325f")
 		(property "Reference" "#PWR03"
-			(at 24.13 110.49 0)
+			(at 83.82 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +9316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 110.49 90)
+			(at 83.82 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +9324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 110.49 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +9333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 110.49 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8565,7 +9342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 110.49 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +9351,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8345eb94-5336-4367-9dc8-99e424932eb5")
+			(uuid "feb0b85a-8261-4d7a-959b-daf6e8fdf6d3")
 		)
 		(instances
 			(project "Pregnant Laser Mouse"
@@ -8639,133 +9416,12 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Omron Electronics"
+		(property "Digikey" "SW501-ND"
 			(at 39.37 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.8 mm"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/D2F-01F/Omron+Electronics+Inc-EMC+Div/view-part/?ref=eda"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B036-E1-12"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/D2F-01F/Omron+Electronics+Inc-EMC+Div/view-part/?ref=snap"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "D2F-01F"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nUltra Subminiature Basic Switch,Snap Action, Pin Plunger, .1A, Low Force, 125V | Omron Electronic Components D2F-01F\n"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Omron"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "D2F-01F"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -8782,72 +9438,6 @@
 			(project "Pregnant Laser Mouse"
 				(path "/798c09e3-6181-4c48-9797-7a219698658c"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 123.19 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aeb30f0f-6f38-49be-938c-e661d3473273")
-		(property "Reference" "#PWR04"
-			(at 24.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4ba4114-14bd-43ec-ac1b-0d10942f55f8")
-		)
-		(instances
-			(project "Pregnant Laser Mouse"
-				(path "/798c09e3-6181-4c48-9797-7a219698658c"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9051,17 +9641,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 30.48 97.79 270)
-		(mirror x)
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 83.82 107.95 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb5f0021-0424-451e-822f-cc1953bc6210")
-		(property "Reference" "#PWR01"
-			(at 24.13 97.79 0)
+		(fields_autoplaced yes)
+		(uuid "bb29c7eb-b0c0-451b-b542-abf4cdcf7e95")
+		(property "Reference" "JP2"
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,16 +9667,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 25.4 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 97.79 0)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
+			(at 83.82 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,8 +9676,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 30.48 97.79 0)
+		(property "Datasheet" "~"
+			(at 83.82 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,22 +9685,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 97.79 0)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 83.82 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "4d108bb8-3164-42a8-be60-5b1962891e08")
 		)
 		(pin "1"
-			(uuid "22043620-6d4e-4138-93a8-6b9beaa0eec5")
+			(uuid "6293cfe4-5db4-4480-b5f3-fbc08785f57d")
+		)
+		(pin "3"
+			(uuid "8522eef5-aa83-47ad-908c-e9ba5e9b0620")
 		)
 		(instances
 			(project "Pregnant Laser Mouse"
 				(path "/798c09e3-6181-4c48-9797-7a219698658c"
-					(reference "#PWR01")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -9177,6 +9773,78 @@
 			(project "Pregnant Laser Mouse"
 				(path "/798c09e3-6181-4c48-9797-7a219698658c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 83.82 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6ab285d-19ec-48e3-9fe4-3a67962fed4b")
+		(property "Reference" "JP1"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1983aff0-6d02-48fb-b315-ab0edf5f5e85")
+		)
+		(pin "1"
+			(uuid "2964f5c2-5d72-4e65-8fa1-da4f8c8a24da")
+		)
+		(pin "3"
+			(uuid "37bd17db-1106-488d-ab00-953beb41fe3b")
+		)
+		(instances
+			(project ""
+				(path "/798c09e3-6181-4c48-9797-7a219698658c"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -9433,6 +10101,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "399-C0805C104K5RAC7210CT-ND"
+			(at 228.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d24d6a86-9439-4f95-ad50-1cbf4118f31a")
 		)
@@ -9502,133 +10179,12 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Omron Electronics"
+		(property "Digikey" "SW501-ND"
 			(at 39.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.8 mm"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/D2F-01F/Omron+Electronics+Inc-EMC+Div/view-part/?ref=eda"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B036-E1-12"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/D2F-01F/Omron+Electronics+Inc-EMC+Div/view-part/?ref=snap"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "D2F-01F"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nUltra Subminiature Basic Switch,Snap Action, Pin Plunger, .1A, Low Force, 125V | Omron Electronic Components D2F-01F\n"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Omron"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "D2F-01F"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -9770,6 +10326,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1727-4578-1-ND"
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "b69c5d44-be03-481d-99ca-ebbb6c759ed3")
 		)
@@ -9856,6 +10421,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "AP7361C-33E-13DICT-ND"
+			(at 138.43 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5dd22a4d-c114-4db7-8172-38fa9a473d08")
 		)
@@ -9919,6 +10493,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "2019-RK73H2ATTD1801FCT-ND"
 			(at 132.08 71.12 0)
 			(effects
 				(font
