@@ -1,13 +1,29 @@
 # Arduino IDE Software
 
+Installing the Pre Built UF2
+--
+
+I have prebuilt the UF2 file in the build folder, connect the XAIO board to your computer, and double press reset on the board.
+
+A Drive should appear usually named Arduino, copy the UF2 file to this drive, the drive will then disconnect, and sofware should be uploaded.
+
+(Same method as using a Pi Pico)
+
+
 Building the software
 --
 
 1. Open the arduino sketch PregnantLaserMouse
 2. Make sure you have the Seeduino XIAO board selected
 	* If not guide is here from XIAO (https://wiki.seeedstudio.com/Seeeduino-XIAO/)
-3. Click "Sketch" in the menu, and select "Export Compiled Binary"
-4. Open the PregnantLaserMouse folder and there should be a build folder with a bin file. This file needs converting to uf2, see below.
+3. You should be able to compile and upload to the XIAO Board, if you have connected via USB and selected the comm port
+
+
+Building the UF2
+--
+
+1. Click "Sketch" in the menu, and select "Export Compiled Binary"
+2. Open the PregnantLaserMouse folder and there should be a build folder with a bin file. This file needs converting to uf2, see below.
 
 
 Converting bin to uf2 for SAMD21
