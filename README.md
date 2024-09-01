@@ -17,7 +17,7 @@ Software [see here](https://github.com/Board-Folk/PregnantLaserMouse/tree/main/S
 
 ## 3D Printable Mouse
 
-A fully printable Amiga Pregnanot Mouse is available here
+A fully printable Amiga pregnant Mouse is available here
 
 [Amiga - "Pregnant" Mouse (3-button)](https://www.printables.com/model/966841-amiga-pregnant-mouse-3-button)
 
