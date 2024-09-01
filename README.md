@@ -37,7 +37,7 @@ This is what i used to test my PCB within.
 
 ## Thanks
 
-  * Pillock ([@thepillock]
+  * Pillock ([@thepillock])
 &nbsp;
   * The rest of the Board Folk Team for their support and general
     coolness.\
