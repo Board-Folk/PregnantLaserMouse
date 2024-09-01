@@ -53,5 +53,5 @@ Don't Plug in the USB to the XAIO while connected to the Amiga/Computer, as this
 This is still a work in progress, use at your own risk. I accept no responsibility if this damages any of your equipment.
 
 
-[IBOMSMD]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/PregnantLaserMouse/main/PregnantMouseBom.html
+[IBOMSMD]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/PregnantLaserMouse/main/bom/PregnantMouseBom.html
 
