@@ -9,7 +9,7 @@ Requires an XAIO Sanduino21 and a ADNS9800 Laser, which you can get still get fr
 
 [**SMD Interactive BOM**][IBOMSMD]
 
-[Gerbers](https://github.com/Board-Folk/PregnantLaserMouse/blob/main/production/Amiga_Pregnant_Laser_Mouse_1.0.zip))
+[Gerbers](https://github.com/Board-Folk/PregnantLaserMouse/blob/main/production/Amiga_Pregnant_Laser_Mouse_1.0.zip)
 
 <a href="https://www.pcbway.com/project/shareproject/Amiga_Pregnant_Laser_Mouse_bde463a2.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
