@@ -1,0 +1,31 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type,place
+128.778,-75.692,-90.0,top,C1,,,C_0805_2012Metric,100nf,smt,True
+142.5702,-79.4258,0.0,top,C2,,,C_0805_2012Metric,470pF,smt,True
+153.5938,-94.2746,90.0,top,C3,,,C_0805_2012Metric,10uF,smt,True
+131.1148,-75.692,-90.0,top,C4,,,C_0805_2012Metric,1uF,smt,True
+155.7528,-94.2746,90.0,top,C5,,,C_0805_2012Metric,100nf,smt,True
+155.702,-82.9868,90.0,top,C6,,,C_0805_2012Metric,100nf,smt,True
+153.5938,-88.6206,90.0,top,C7,,,C_0805_2012Metric,100nf,smt,True
+153.6446,-82.997,90.0,top,C8,,,C_0805_2012Metric,3.3uF,smt,True
+155.7274,-88.6104,90.0,top,C9,,,C_0805_2012Metric,10uF,smt,True
+154.305,-132.3848,180.0,top,J1,,,PinHeader_1x10_P2.54mm_Vertical,Amiga_Conn,tht,True
+143.9672,-128.8796,180.0,bottom,J2,,,ResetHole,Reset Hole,tht,False
+122.4534,-65.4149,180.0,bottom,JP1,,,SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm,~,tht,False
+149.7538,-65.5066,180.0,bottom,JP2,,,SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm,~,tht,False
+163.195,-65.5574,0.0,bottom,JP3,,,SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm,~,tht,False
+136.3218,-85.852,0.0,top,M1,,,ADNS-9800,ADNS-9800,tht,True
+129.9718,-82.9587,180.0,top,Q1,,,SOT-23,IRLML6302TRPBF,smt,True
+137.2362,-108.0789,90.0,top,R1,,,R_0805_2012Metric,1.8K,smt,True
+145.542,-108.0535,90.0,top,R2,,,R_0805_2012Metric,1.8K,smt,True
+141.3764,-108.0751,90.0,top,R3,,,R_0805_2012Metric,1.8K,smt,True
+139.319,-108.077,90.0,top,R4,,,R_0805_2012Metric,3.3K,smt,True
+147.6248,-108.0516,90.0,top,R5,,,R_0805_2012Metric,3.3K,smt,True
+143.4592,-108.0732,90.0,top,R6,,,R_0805_2012Metric,3.3K,smt,True
+127.381,-56.2102,180.0,top,SW1,,,SW_D2F-01F,LEFT,tht,True
+144.8361,-56.2102,0.0,top,SW2,,,SW_D2F-01F,MID,tht,True
+158.5214,-56.2102,0.0,top,SW3,,,SW_D2F-01F,RIGHT,tht,True
+121.9212,-104.2776,0.0,top,SW4,,,SW_PUSH_6mm_H4.3mm,RESET,tht,True
+151.6634,-112.6236,180.0,top,U1,,,Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM,SeeeduinoXIAO,smt,True
+125.4002,-129.7432,180.0,top,U2,,,SOT-223-3_TabPin2,LT1963AxST-3.3,smt,True
+142.1598,-124.1546,180.0,bottom,U3,,,VSSOP-8_2.3x2mm_P0.5mm,74LVC2T45DC,smt,True
+142.1638,-118.9482,180.0,bottom,U4,,,VSSOP-8_2.3x2mm_P0.5mm,74LVC2T45DC,smt,True
