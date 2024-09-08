@@ -7,6 +7,25 @@ Version 1.0
 
 Requires an XAIO SAMD21 and a ADNS9800 Laser, which you can get still get from Aliexpress. Make sure to also get the Lens.
 
+## Notes
+
+In commodore's wisdom, there are differences in the mouse button pcb layput between the 2 button and 3 button versions.
+By default i have set the orientation in the 2 button version, as i did not have access to the 3 button pcb layout and they looked identical from the top.
+
+* JP1 - Left Mouse Button Orientation
+* JP2 - Middle Mouse Button Orientation
+* JP3 - Right Mouse Button Orientation
+
+These are the jumpers underneath the board. Break the traces between the 1st and 2nd pad, and solder between the 2nd pad and 3rd, if you want to use 3 button mouse version.
+
+![Mouse Button Trace Cut Bridge](images/tracecutbridge.png)
+
+I will probably make a Version 1.1, and join both anyway and if someone finds a switch that is not compatible, to cut the one not needed.
+
+Make sure that you put the switches in the correct orientation also on the PCB that they alignup and hit the tab on the button before soldering.
+
+## Bom
+
 [**SMD Interactive BOM**][IBOMSMD]
 
 [Gerbers](https://github.com/Board-Folk/PregnantLaserMouse/blob/main/production/Amiga_Pregnant_Laser_Mouse_1.0.zip)
