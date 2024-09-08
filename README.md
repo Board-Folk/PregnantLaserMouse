@@ -20,6 +20,10 @@ These are the jumpers underneath the board. Break the traces between the 1st and
 
 ![Mouse Button Trace Cut Bridge](images/tracecutbridge.png)
 
+I will probably make a Version 1.1, and join both anyway and if someone finds a switch that is not compatible, to cut the one not needed.
+
+Make sure that you put the switches in the correct orientation also on the PCB that they alignup and hit the tab on the button before soldering.
+
 ## Bom
 
 [**SMD Interactive BOM**][IBOMSMD]
