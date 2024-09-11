@@ -38,10 +38,9 @@ Software [see here](https://github.com/Board-Folk/PregnantLaserMouse/tree/main/S
 
 A fully printable Amiga pregnant Mouse is available here
 
-[Amiga - "Pregnant" Mouse (3-button)](https://www.printables.com/model/966841-amiga-pregnant-mouse-3-button)
+[Amiga - "Pregnant" Mouse (3-button)](https://www.pcbway.com/project/shareproject/Amiga_Pregnant_Mouse_3_button_version_f910c5ea.html)
 
-This is what i used to test my PCB within.
-
+This project also includes a 'Shell - Bottom (Laser variant)' for the optical ADNS 9800
 
 ## 3D Printable Lens Cover
 
