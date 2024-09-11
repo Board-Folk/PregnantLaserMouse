@@ -40,11 +40,15 @@ A fully printable Amiga pregnant Mouse is available here
 
 [Amiga - "Pregnant" Mouse (3-button)](https://www.pcbway.com/project/shareproject/Amiga_Pregnant_Mouse_3_button_version_f910c5ea.html)
 
-This project also includes a 'Shell - Bottom (Laser variant)' for the optical ADNS 9800
+This project also includes varient for the optical ADNS 9800
 
-## 3D Printable Lens Cover
+* Shell - Bottom (Laser variant)
+* Shell - Top
+* Shell - Buttons
 
-3D Printable Lens Cover still requires testing, Sketchup model file is included to modify for tolerances of your printer.
+## 3D Printable Lens Cover for the Original Mouse
+
+3D Printable Lens Cover (lens.stl) still requires testing, Sketchup model file is included to modify for tolerances of your printer.
 
 ***Print Settings***
 
@@ -56,6 +60,10 @@ This project also includes a 'Shell - Bottom (Laser variant)' for the optical AD
 * Line Width: 0.4mm
 * Print Thin Walls: Yes
 * Filter Out Tiny Gaps: Yes
+
+## 3D Printable PCB Holder
+
+The (holder.stl) is just to well, hold the PCB in place. May or may not be needed.
 
 
 ## Thanks
