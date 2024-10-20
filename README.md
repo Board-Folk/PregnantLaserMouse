@@ -3,11 +3,17 @@
 
  ![PCB](images/banner.png)
 
+Version 1.1
+
+Removed the solder bridges, and just allow gnd on both sides of the switch.
+
 Version 1.0
 
 Requires an XAIO SAMD21 and a ADNS9800 Laser, which you can get still get from Aliexpress. Make sure to also get the Lens.
 
 ## Notes
+
+This is for the version 1.0 of the board. v1.1 don't need to do this apart from making sure your switches are the correct way for 2 or 3 button mouse.
 
 In commodore's wisdom, there are differences in the mouse button pcb layput between the 2 button and 3 button versions.
 By default i have set the orientation in the 2 button version, as i did not have access to the 3 button pcb layout and they looked identical from the top.
@@ -28,7 +34,9 @@ Make sure that you put the switches in the correct orientation also on the PCB t
 
 [**SMD Interactive BOM**][IBOMSMD]
 
-[Gerbers](https://github.com/Board-Folk/PregnantLaserMouse/blob/main/production/Amiga_Pregnant_Laser_Mouse_1.0.zip)
+[Gerbers 1.1 ](https://github.com/Board-Folk/PregnantLaserMouse/blob/main/production/Amiga_Pregnant_Laser_Mouse_1.1.zip)
+
+[Gerbers 1.0 with solder bridges](https://github.com/Board-Folk/PregnantLaserMouse/blob/main/production/Amiga_Pregnant_Laser_Mouse_1.0.zip)
 
 <a href="https://www.pcbway.com/project/shareproject/Amiga_Pregnant_Laser_Mouse_bde463a2.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
